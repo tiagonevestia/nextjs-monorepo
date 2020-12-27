@@ -1,5 +1,6 @@
 import { Button } from 'components/Button'
 import { NextPage } from 'next'
+import { capitalize } from '@tia/functions'
 
 const Index: NextPage = () => {
   const handleClick = (): void => {
@@ -8,7 +9,7 @@ const Index: NextPage = () => {
 
   return (
     <div>
-      <Button label='Componente Button' onClick={handleClick} />
+      <Button label={capitalize('componente button')} onClick={handleClick} />
     </div>
   )
 }

@@ -18,5 +18,8 @@
   "license": "ISC",
   "devDependencies": {
     "@storybook/react": "^6.1.2"
+  },
+  "dependencies": {
+    "@tia/functions": "0.0.0-dev"
   }
 }

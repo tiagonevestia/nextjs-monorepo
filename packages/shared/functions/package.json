@@ -1,0 +1,13 @@
+{
+  "name": "@tia/functions",
+  "private": "false",
+  "version": "0.0.0-dev",
+  "description": "Template de compartilhamento de funcoes",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest --coverage --config ../../../jest.config.js ./src/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
