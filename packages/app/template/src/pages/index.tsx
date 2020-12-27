@@ -1,4 +1,4 @@
-import * as React from 'react'
+import { Button } from 'components/Button'
 import { NextPage } from 'next'
 
 const Index: NextPage = () => {
@@ -8,7 +8,7 @@ const Index: NextPage = () => {
 
   return (
     <div>
-      <button onClick={handleClick}>Template NEXTjs</button>
+      <Button label='Componente Button' onClick={handleClick} />
     </div>
   )
 }
